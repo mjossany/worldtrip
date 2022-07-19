@@ -14,11 +14,20 @@ export const theme = extendTheme({
   },
   breakpoints: {
     sm: '375px',
-    lg: '1440px',
+    md: '768px',
+    lg: '960px',
+    xl: '1440px',
     '2xl': '1536px',
   },
   fonts: {
     heading: 'Poppins',
     body: 'Poppins',
+  },
+  styles: {
+    global: {
+      body: {
+        w: "100%"
+      }
+    }
   }
 })
