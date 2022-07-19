@@ -11,6 +11,11 @@ export const theme = extendTheme({
       '500': '#FFBA08',
     },
   },
+  breakpoints: {
+    sm: '375px',
+    lg: '1440px',
+    '2xl': '1536px',
+  },
   fonts: {
     heading: 'Poppins',
     body: 'Poppins',
